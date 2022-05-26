@@ -1,0 +1,21 @@
+.ButtonContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.ButtonContainer button {
+  background: none;
+  border: 1px solid black;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ButtonContainer button:hover {
+  background: grey;
+}
